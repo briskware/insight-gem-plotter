@@ -5,7 +5,7 @@ Insight GEM ASC Flight Log Plotter/Visualiser
 
 # Instructions
 
-Point your browser to index.html located under src/main/html/index.html, or click [here](https://cdn.rawgit.com/briskware/insight-gem-plotter/master/src/main/html/index.html).
+Point your browser to index.html located under src/main/html/index.html, or click [here for dev link](https://rawgit.com/briskware/insight-gem-plotter/master/src/main/html/index.html), or [here for production link (might not always be up to date)](https://cdn.rawgit.com/briskware/insight-gem-plotter/master/src/main/html/index.html).
 
 Once the page loads select an ASC file and the page will generate the graphical engine log for your chosen flight.
 
