@@ -23,8 +23,8 @@
 
     <body>
         <h3>Insight GEM <a href="http://www.insightavionics.com/oldgem.htm" target="_blank">610</a> Graphical Engine Monitor Log Plotter Tool</h3>
-        <input type="file" id="fileinput" accept=".ASC"/>
-        <pre><div id="chart_info" style="width: 95%; height: 25%"></div></pre>
+        <input type="file" id="fileinput" accept=".ASC,.asc"/>
+        <div id="chart_info" style="width: 95%; height: 25%"></div>
         <div id="chart_div" style="width: 100%; height: 70%;"></div>
     </body>
 
@@ -54,7 +54,7 @@
                     info.push(sanitise(lines[l]))
                 }
             }
-            document.getElementById('chart_info').innerHTML = (info.join("\n"));
+            document.getElementById('chart_info').innerHTML = "<pre>" + info.join("\n") + "</pre>";
             return data;
         }
 
